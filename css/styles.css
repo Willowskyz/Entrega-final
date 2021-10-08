@@ -355,11 +355,14 @@ h1,h2,h3 {
     .estructuras {
         font-weight: bold;
     }
-    
-@media (min-width: 780px) {
+
+@media (min-width: 360px) {
     .GridTrabajos {
         display: grid;
         grid-template-rows: 1fr;
         text-align: center;
     } 
+    .GridTrabajos img {
+        max-width: 50%;
+    }
 }
