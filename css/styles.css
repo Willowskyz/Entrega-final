@@ -363,6 +363,6 @@ h1,h2,h3 {
         text-align: center;
     } 
     .GridTrabajos img {
-        max-width: 50%;
+        max-width: 100%;
     }
 }
